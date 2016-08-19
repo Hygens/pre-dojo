@@ -8,7 +8,7 @@ class AmilGameLog_in_Scala_Test_Spec extends UnitSpec {
       val filePath = "./../resources/In/gamers.log"
       AmilGameLog.main(Array(filePath))
   }
-  it should "throw FileNotFoundException if file not found and show message in portuguese" in {
+  it should "throw FileNotFoundException or NullPointerException if resource or file not found and show message in portuguese" in {
       val filePath = "./../resources/In/gamers1.log"
       AmilGameLog.main(Array(filePath))      
   }

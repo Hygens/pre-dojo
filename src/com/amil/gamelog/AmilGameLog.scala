@@ -9,14 +9,16 @@ case class Gamer(nome: String, var assassinatos: Int, var mortes: Int)
 case class Partida(id: Int, gamers: ListMap[String, Gamer])
 
 object AmilGameLog {
-  def getResourcePath(fileName:String) = {
+  @throws(classOf[FileNotFoundException])
+  @throws(classOf[NullPointerException])
+  def getResourcePath(fileName: String) = {
     val url = getClass().getResource(fileName)
-    url.getPath()    
+    url.getPath()
   }
   def main(args: Array[String]): Unit = {
     var filePath = args(0)
-    if (filePath != null && !filePath.equals("")) {
-      try {
+    try {
+      if (filePath != null && !filePath.equals("")) {
         filePath = getResourcePath(args(0))
         var gamers = Map[String, Gamer]()
         var turns = Buffer[Partida]()
@@ -64,13 +66,14 @@ object AmilGameLog {
           }
           println
         }
-      } catch {
-        case e: FileNotFoundException => println("Arquivo de log não encontrado!!!")
-        case e: Exception => println(e.getLocalizedMessage)
+      } else {
+        throw new Exception("Caminho do arquivo de log vazio! Reexecute novamente\n"
+          + "e informe o caminho completo do arquivo de log.")
       }
-    } else {
-      println("Caminho do arquivo de log vazio! Reexecute novamente\n"
-        + "e informe o caminho completo do arquivo de log.")
+    } catch {
+      case e: FileNotFoundException => println("Arquivo de log não encontrado!!!")
+      case e: NullPointerException => println("Arquivo de log não encontrado!!!")
+      case e: Exception => println(e.getLocalizedMessage)
     }
   }
 }
