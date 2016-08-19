@@ -1,0 +1,67 @@
+Run starting. Expected test count is: 3
+AmilGameLog_in_Scala_Test_Spec:
+Testing AmilGameLog
+             Partida       Rank                Nomes         Assassinatos               Mortes
+
+            11348965          1                Roman                    4                    0
+            11348965          2                 Mike                    1                    1
+            11348965          3                 Nick                    1                    4
+
+            11348966          1                Roman                    1                    0
+            11348966          2                 Nick                    0                    1
+
+            11348967          1                Roman                    1                    0
+            11348967          2                 Nick                    0                    1
+
+            11348968          1                Roman                    1                    0
+            11348968          2                 Nick                    0                    1
+
+            11348969          1                Roman                    1                    0
+            11348969          2                 Nick                    0                    1
+
+            11348970          1                Roman                    1                    0
+            11348970          2                 Nick                    0                    1
+
+            11348971          1                Roman                    1                    0
+            11348971          2                 Nick                    0                    1
+
+            11348972          1                Roman                    1                    0
+            11348972          2                 Nick                    0                    1
+
+            11348973          1                Roman                    1                    0
+            11348973          2                 Nick                    0                    1
+
+            11348974          1                Roman                    1                    0
+            11348974          2                 Nick                    0                    1
+
+            11348975          1                Roman                    1                    0
+            11348975          2                 Nick                    0                    1
+
+            11348976          1                Roman                    1                    0
+            11348976          2                 Nick                    0                    1
+
+            11348977          1                Roman                    1                    0
+            11348977          2                 Nick                    0                    1
+
+            11348978          1                Roman                    1                    0
+            11348978          2                 Nick                    0                    1
+
+            11348979          1                Roman                    1                    0
+            11348979          2                 Nick                    0                    1
+
+            11348980          1                Roman                    1                    0
+            11348980          2                 Nick                    0                    1
+
+            11348981          1                Roman                    1                    0
+            11348981          2                 Nick                    0                    1
+
+Arquivo de log não encontrado!!!
+- should valid path for log file
+Arquivo de log vazio!!!
+- should throw FileNotFoundException or NullPointerException if resource or file not found and show message in portuguese
+- should throw Exception if file empty
+Run completed in 300 milliseconds.
+Total number of tests run: 3
+Suites: completed 1, aborted 0
+Tests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0
+All tests passed.
