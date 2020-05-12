@@ -1,1 +1,1 @@
-["sbt.Task[scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]",{"hashes":[["/home/jose/github_projs/pre-dojo/build.sbt","e1a8bc6b25d1e2e295d2714748e7a08c49386211"]],"lastModifiedTimes":[]}]
+["sbt.Task[scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]",{"hashes":[["/home/jose/github_projs/pre-dojo/build.sbt","328d6eada2e029152301ca991b36c78f5671694c"]],"lastModifiedTimes":[]}]

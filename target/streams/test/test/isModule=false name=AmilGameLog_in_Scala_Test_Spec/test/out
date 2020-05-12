@@ -1,0 +1,5 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mAmilGameLog_in_Scala_Test_Spec:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTesting AmilGameLog[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should valid path for log file[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw FileNotFoundException or NullPointerException if resource or file not found and show message in portuguese[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should throw Exception if file empty[0m[0m

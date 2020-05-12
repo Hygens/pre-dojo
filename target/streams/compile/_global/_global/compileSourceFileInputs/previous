@@ -1,1 +1,1 @@
-["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.11.8":{"hashes":[],"lastModifiedTimes":[]}}]
+["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.11.8":{"hashes":[["/home/jose/github_projs/pre-dojo/src/main/scala/com/amil/gamelog/AmilGameLog.scala","975948c1414d13aac6400dd3226cd792328f2035"]],"lastModifiedTimes":[]}}]
