@@ -1,38 +1,32 @@
-PROBLEMA
+PROBLEM
 ========
-Dado o seguinte log de um jogo de tiro em primeira pessoa:
+Given the following log of a first person shooter:
 
-23/04/2013 15:34:22 - New match 11348965 has started  
-23/04/2013 15:36:04 - Roman killed Nick using M16  
-23/04/2013 15:36:33 - &lt;WORLD&gt; killed Nick by DROWN  
-23/04/2013 15:39:22 - Match 11348965 has ended  
+23/04/2013 15:34:22 - New match 11348965 has started
+23/04/2013 15:36:04 - Roman killed Nick using M16
+23/04/2013 15:36:33 - <WORLD> killed Nick by DROWN
+23/04/2013 15:39:22 - Match 11348965 has ended
 
-Resultado esperado
-------------------
-* A partir de um input de um arquivo de log do formato acima, montar o ranking de cada partida, com a quantidade assassinatos e a quantidade de mortes de cada jogador;
+Write a code for
+-----------------------
+* Set up the ranking of each match, with the number of murders and the number of deaths of each player;
 
-Observações
-------------
-* Assassinatos realizados pelo &lt;WORLD&gt; devem ser desconsiderados, no entanto, as mortes causadas pelo &lt;WORLD&gt; devem ser consideradas para o jogador que foi morto.
+Comments:
+* Murders carried out by the <WORLD> player must be disregarded.
 
 
-Bônus
+Bonus
+(Not required. Do it only if you identify with the problem or if you think there is something interesting to be shown in the solution)
 -----
-Não obrigatório. Faça apenas caso se identifique com o problema ou se achar que há algo interessante a ser mostrado na solução
-* Descobrir a arma preferida (a que mais matou) do vencedor;
-* Identificar a maior sequência de assassinatos efetuadas por um jogador (streak) sem morrer, dentro da partida;
-* Jogadores que vencerem uma partida sem morrerem devem ganhar um "award";
-* Jogadores que matarem 5 vezes em 1 minuto devem ganhar um "award".
+* Discover the winner's favorite weapon (the one that killed the most);
+* Identify the largest sequence of murders carried out by a player (streak) without dying, within the game;
+* Players who win a match without dying must win an "award";
+* Players who kill 5 times in 1 minute must win an "award".
 
 
-SOLUÇÃO
+SOLUTION
 =======
-* Seja criativo;
-* Explore ao máximo a orientação a objetos;
-* Crie testes unitários e tente usar TDD;
-* Não é necessário utilizar nenhum framework, mas fica ao seu critério; 
-
-ENTREGA
-=======
-* Faça um fork do nosso repositório, nos envie a url do seu repositório com a solução;
-* Utilize o arquivo SUAS-INSTRUÇÕES.txt para adicionar algum comentário/observação que achar importante.
+* Be creative;
+* Make the most of object orientation;
+* Create unit tests and try to use TDD;
+* It is not necessary to use any framework, but it is up to you;

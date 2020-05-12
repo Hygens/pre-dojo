@@ -1,0 +1,24 @@
+For this process, Scala / Java and Scalatest (BDD) were used instead of pure TDD.
+
+Non-Functional Requirements and Tests:
+1) Install Java 1.8 (Latest version available if possible).
+
+2) Install Scala 2.11.8: http://www.scala-lang.org/download/
+
+3) Install lightbend-activator-1.3.10 as instructed on the website: https://www.lightbend.com/activator/download
+
+4) Install ScalaIDE: http://scala-ide.org/download/sdk.html
+
+5) Place the home directory of the lightbend-activator (typesafe-activator) in your PATH.
+
+6) Create a variable that points to the activator repository in ScalaIDE.
+
+7) Install the Scalatest plugin: https://github.com/scalatest/scalatest-eclipse-plugin
+
+8) Run the tests according to the instructions in item 3 on the Spec: AmilGameLog_in_Scala_Spec.scala which is in the com.amil.tests package.
+(Very easy, just after installing the Scalatest plugin, have the AmilGameLog_in_Scala_Spec class run with the target "ScalaTest - File")
+
+9) If you want to test other files, just put them in the package: com.amil.resources.In. Update the test file with the file path on the same model as the current one and re-run the tests.
+
+
+

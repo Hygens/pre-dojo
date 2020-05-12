@@ -1,0 +1,12 @@
+2020.05.12 12:02:14 INFO  started: Metals version 0.9.0 in workspace '/home/jose/github_projs/pre-dojo'
+2020.05.12 12:02:17 INFO  time: initialize in 2.96s
+2020.05.12 12:10:41 INFO  no build target: using presentation compiler with only scala-library
+2020.05.12 12:10:54 WARN  no build target for: /home/jose/github_projs/pre-dojo/src/com/amil/gamelog/AmilGameLog.scala
+2020.05.12 12:11:38 WARN  code navigation does not work for the file '/home/jose/github_projs/pre-dojo/src/com/amil/gamelog/AmilGameLog.scala' because it doesn't belong to a build target.
+2020.05.12 12:11:49 WARN  code navigation does not work for the file '/home/jose/github_projs/pre-dojo/src/com/amil/gamelog/AmilGameLog.scala' because it doesn't belong to a build target.
+2020.05.12 12:11:51 WARN  code navigation does not work for the file '/home/jose/github_projs/pre-dojo/src/com/amil/gamelog/AmilGameLog.scala' because it doesn't belong to a build target.
+2020.05.12 12:12:54 WARN  no build target for: /home/jose/github_projs/pre-dojo/src/com/amil/gamelog/AmilGameLog.scala
+2020.05.12 12:14:43 WARN  no build target for: /home/jose/github_projs/pre-dojo/src/com/amil/gamelog/AmilGameLog.scala
+mai. 12, 2020 12:14:55 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: offset 1333, count -1, length 2834
+2020.05.12 12:15:01 WARN  no build target for: /home/jose/github_projs/pre-dojo/src/com/amil/gamelog/AmilGameLog.scala
